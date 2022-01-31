@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="reset-style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://pagination.js.org/dist/2.1.5/pagination.min.js"></script>
+    <link rel="stylesheet" href="https://pagination.js.org/dist/2.1.5/pagination.css"/>
+    <script src="./scripts-collection.js"></script>
+
+    <title>Meta Polis</title>
+  </head>
+  <body>
+    <div class="header-wrapper">
+      <div class="header">
+        <div class="header__logo">
+          <img src="./images/logo.png" />
+        </div>
+      </div>
+    </div>
+    <div class="banner">
+      <div class="banner__content">
+        <div class="banner__content--logo">
+          <img src="./images/logo.png" />
+        </div>
+        <button class="btn-collection">NFT COLLECTION</button>
+        <div class="banner__description">
+          Rare NFTs are not for sale at the moment. There will be an auction for
+          Rare NFTs in the future. Please join the waiting list to be the first
+          notified!
+        </div>
+      </div>
+    </div>
+    <div class="main-content-wrapper">
+      <div class="main-content">
+        <div class="category-wrapper">
+          <button class="category-item active" data-propertie="type--all">
+            All
+          </button>
+          <button class="category-item" data-propertie="type--ssr">
+            Legendary
+          </button>
+          <button class="category-item" data-propertie="type--sr">
+            Super Rare
+          </button>
+          <button class="category-item" data-propertie="type--r">Rare</button>
+        </div>
+        <div id="data-container" class="category-container"></div>
+      
+        <div id="pagination" class="pagination"></div>
+        </div>
+      </div>
+     
+    </div>
+  </body>
+</html>
